@@ -8,6 +8,8 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
+
+
 nav {
     display: flex;
     align-items: center;
@@ -111,6 +113,10 @@ nav button.menu.ativo span.dois {
     transform: rotate(-45deg);
 
 
+}
+
+.section-principal {
+    background-color: aquamarine;
 }
 
 @media screen and (max-width: 1000px) {
