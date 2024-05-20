@@ -343,6 +343,91 @@ h1 {
     fill: transparent;
   }
 
+  .cartao-numeros {
+    display: flex;
+    justify-content: center;
+    background: #F4F4F4;
+    padding: 100px 0 100px 0;
+  }
+
+  .card-numeros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 37px;
+  }
+
+  .card-numeros .numeros2 {
+    background-color: white;
+    padding: 30px 20px 50px 30px;
+    border-radius: 10px;
+  }
+
+  .card-numeros .numeros3 {
+    background-color: black;
+    padding: 30px 20px 50px 30px;
+    border-radius: 10px;
+  }
+
+  .card-numeros .numeros3 h4 {
+    color: #FC0;
+  }
+
+  .card-numeros .numeros3 p {
+    color: white;
+
+  }
+
+
+  .card-numeros .numeros4 {
+    background-color: white;
+    padding: 30px 20px 50px 30px;
+    border-radius: 10px;
+  }
+
+  .card-numeros .numeros5 {
+    background-color: white;
+    padding: 30px 20px 50px 30px;
+    border-radius: 10px;
+  }
+
+  .card-numeros .numeros6 {
+    background-color: white;
+    padding: 30px 20px 50px 30px;
+    border-radius: 10px;
+  }
+
+  .numeros {
+    padding: 62px 22px 99px 22px;
+    background-color: #f89b29;
+  }
+
+  .card-numeros h2 {
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  .card-numeros p {
+    width: 250px;
+    color: #787878;
+    font-size: 18px;
+
+
+  }
+
+  .card-numeros h3 {
+    font-size: 50px;
+    color: #FC0;
+  }
+
+  .card-numeros h4 {
+    color: #5C5C5C;
+    font-size: 24px;
+    padding: 12px 0 12px 0;
+
+
+  }
+
 @media screen and (max-width: 1000px) {
 
     nav {
