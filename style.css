@@ -154,6 +154,13 @@ h1 {
     color: black;
 }
 
+.box-dois {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
 .section-dois {
     display: flex;
     justify-content: center;
@@ -161,9 +168,14 @@ h1 {
     background-image: url(fundo-dois.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 100px;
-    gap: 250px;
-    height: 700px;
+    width: 1287.203px;
+    height: 602.369px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-dois img {
+    width: 100%;
 }
 
 .texto-dois {
@@ -303,6 +315,7 @@ h1 {
         background-repeat: no-repeat;
         background-size: 900px;
         width: 1287.203px;
+        height: 500px;
     }
     
     .card-principal {
@@ -331,7 +344,69 @@ h1 {
         color: black;
         font-size: 14px;
     }
+
+    .box-dois {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        border-radius: 10px;
+        padding: 0 10px 0 10px;
+    }
     
+    .box-texto-dois {
+        padding: 1em;
+    }
+
+    .section-dois {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-image: url(fundo-dois-vertical.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px 10px 20px 10px;
+    }
+    
+    .img-dois img {
+        width: 100%;
+    }
+
+    
+    .texto-dois {
+        line-height: 28px;
+        width: 100%;
+    }
+    
+    .texto-dois h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .texto-dois p {
+        width: 100%;
+        padding: 32px 0 32px 0;
+        font-size: 13px;
+    }
+    
+    .texto-dois a {
+        color: rgb(255, 255, 255);
+        background-color: black ;
+        border-radius: 73.093px;
+        padding: 1em;
+    
+    }
+    
+
+}
+
+@media screen and (max-width: 1220px) {
+    .img-dois img {
+    }
 
 }
 
