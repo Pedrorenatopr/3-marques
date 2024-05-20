@@ -1,0 +1,104 @@
+nav {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    padding: 1em;
+    justify-content: space-around;
+    z-index: 3;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #636472;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(13.350000381469727px);
+
+}
+
+nav .opcoes  {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+
+.nav .opcoes:hover {
+  scale: 1.1;
+  transition: all 0.5s;
+}
+
+nav .opcoes.mostrar {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+
+
+nav .opcoes a {
+    color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
+nav .opcoes a:hover {
+  scale: 1.1;
+  transition: all 0.5s;
+}
+
+
+
+
+nav button.menu {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: transparent;
+}
+
+nav button.menu span {
+    background-color: aquamarine;
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+    transition: all 0.3s;
+}
+
+nav button.menu span.um {
+    width: 25px;
+    bottom: 4px;
+    right: 0;
+}
+
+nav button.menu span.dois {
+    width: 35px;
+    top: 4px;
+    right: 0;
+
+}
+
+nav button.menu.ativo span {
+    background-color: rgb(249, 0, 0);
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+}
+
+nav button.menu.ativo span.um {
+    width: 30px;
+    bottom: 8px;
+    right: -5px;
+    transform: rotate(45deg);
+}
+
+nav button.menu.ativo span.dois {
+    width: 30px;
+    top: 8px;
+    right: -5px;
+    transform: rotate(-45deg);
+
+
+}
