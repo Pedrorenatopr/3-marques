@@ -441,8 +441,14 @@ h1 {
     padding-bottom: 20px;
     margin-bottom: 10px;
     border-radius: 20px;
-
 }
+
+.box-servicos-tres {
+    background-color: black;
+    padding: 50px 0 50px 0;
+}
+
+
 
 @media screen and (max-width: 1000px) {
 
@@ -727,7 +733,12 @@ h1 {
         justify-content: flex-start;
         width: 100%;
         padding: 50px 10px;
-        margin-top: -100px;
+        margin-top: -50px;
+    }
+
+    .box-servicos-tres {
+        background-color: black;
+        padding: 0;
     }
 
     
