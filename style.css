@@ -8,6 +8,16 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
+:root {
+    --f1: clamp(0.6rem, 1vw, 0.8rem);
+    --f2: clamp(0.8rem, 1vw, 1.0rem);
+    --f3: clamp(1.0rem, 1vw, 1.2rem);
+    --f4: clamp(1.2rem, 1vw, 1.5rem);
+    --f5: clamp(1.5rem, 1vw, 2.5rem);
+    --f6: clamp(2rem, 1vw, 3.5rem);
+    --f7: clamp(4.0rem, 1vw, 5.5rem);
+  }
+
 
 
 nav {
@@ -496,13 +506,12 @@ h1 {
 }
 
  
-body {
-    background-color: white;
-}
 
 
 .box-depoimentos {
   padding-top: 100px;
+  background-color: #3A3C40;
+
 }
 
 section.depoimentos {
@@ -510,7 +519,7 @@ section.depoimentos {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: white;
+    background-color: #3A3C40;
     padding: 80px 0 30px 0;
   }
   section.depoimentos .texto {
@@ -529,7 +538,7 @@ section.depoimentos {
   }
 
   .titulo-depoimentos {
-    color: rgb(7, 235, 15);
+    color: white;
     text-align: center;
     width: 500px;
   }
@@ -573,7 +582,7 @@ section.depoimentos {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 70%;
     position: relative;
     overflow: hidden;
   }
@@ -634,8 +643,8 @@ section.depoimentos {
 
   section.depoimentos .slide .itens .item .nome .info h4 {
     font-family: var(--semibold);
-    font-size: var(--f1);
-    color: #4EAF4E;
+    font-size: var(--f3);
+    color: rgb(92, 92, 92);
     margin: 5px 0 0 0;
   }
 
