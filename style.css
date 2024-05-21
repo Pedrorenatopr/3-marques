@@ -954,6 +954,7 @@ section.depoimentos {
 .box-galeria {
     background-color: black;
     display: grid;
+    padding-bottom: 100px;
 }
 
 .box-galeria h2 {
