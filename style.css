@@ -168,7 +168,9 @@ h1 {
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    border-radius: 10px;
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
 .section-dois {
@@ -936,7 +938,11 @@ section.depoimentos {
         padding-top: 0px;
         border-radius: 10px;
         padding: 0 10px 0 10px;
+        background-color: transparent;
+        margin-top: 0;
+        padding-bottom: 0;
     }
+
     
     .box-texto-dois {
         padding: 1em;
@@ -1222,6 +1228,7 @@ section.depoimentos {
   }
 
   footer {
+    color: white;
     display: grid;
     align-items: center;
     justify-content: left;
