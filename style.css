@@ -265,6 +265,7 @@ h1 {
     bottom: 20px;
     font-size: 25px;
     color: white;
+    text-transform: uppercase;
 }
 
 .plus {
@@ -336,6 +337,7 @@ h1 {
   
   .card .content .heading {
     font-size: 32px;
+    text-transform: lowercase;
   }
   
   .card:hover .content {
