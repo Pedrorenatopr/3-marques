@@ -1193,7 +1193,7 @@ section.depoimentos {
 }
 
 .form {
-    padding: 0px 0 50px 0;
+    padding: 70px 0 50px 0;
   }
 
   .card-fomr {
@@ -1253,15 +1253,18 @@ section.depoimentos {
   }
 
   .footer2 {
-    padding-left: 20px;
+    padding-left: 0px;
+    border-left: none;
   }
 
   .footer3 {
-    padding-left: 20px;
+    padding-left: 0px;
+    border-left: none;
   }
 
   .footer4 {
-    padding-left: 20px;
+    padding-left: 0px;
+    border-left: none;
   }
 
   .copy {
@@ -1269,6 +1272,7 @@ section.depoimentos {
     width: 100%;
     padding: 20px 5px 20px 5px;
   }
+
 
 
 
