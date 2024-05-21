@@ -511,6 +511,7 @@ h1 {
 .box-depoimentos {
   padding-top: 100px;
   background-color: #3A3C40;
+  padding-bottom: 100px;
 
 }
 
@@ -1050,7 +1051,8 @@ section.depoimentos {
   }
 
   .box-depoimentos {
-    padding-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
  
   
