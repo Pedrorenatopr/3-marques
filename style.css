@@ -428,6 +428,22 @@ h1 {
 
   }
 
+  .card-servicos-tres {
+    background-color: #FC0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 20px;
+    max-width: 980px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
 @media screen and (max-width: 1000px) {
 
     nav {
@@ -704,6 +720,15 @@ h1 {
       .card-numeros .numeros6 {
         width: 100%;
       }
+
+      .card-servicos-tres {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 50px 10px;
+        margin-top: -100px;
+    }
 
     
 
