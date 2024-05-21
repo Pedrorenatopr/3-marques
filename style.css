@@ -791,7 +791,14 @@ h1 {
 
 .box-galeria {
     background-color: black;
-    display: flex;
+    display: grid;
+}
+
+.box-galeria h2 {
+    color: #FC0;
+    width: 100%;
+    padding: 50px 10px 50px 10px;
+    text-align: center;
 }
 
 .galeria {
