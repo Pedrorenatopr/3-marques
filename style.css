@@ -35,7 +35,6 @@ nav {
     padding: 1em;
     justify-content: space-around;
     z-index: 3;
-    border: 1px solid #636472;
     background: black;
     backdrop-filter: blur(13.350000381469727px);
 
@@ -802,7 +801,6 @@ section.depoimentos {
         padding: 1em;
         justify-content: space-between;
         margin-top: 0;
-        border: 1px solid #636472;
         backdrop-filter: blur(100);
     }
     
@@ -1243,9 +1241,14 @@ section.depoimentos {
 
   .footer1 p {
     width: 100%;
-    line-height: 34px;
+    line-height: 28px;
     padding-top: 20px;
     padding-right: 10px;
+    font-size: 13px;
+  }
+
+  .footer1 img {
+    width: 60px;
   }
 
 
