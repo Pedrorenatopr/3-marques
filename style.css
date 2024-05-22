@@ -166,6 +166,12 @@ h1 {
     background: #FC0;
     padding: 1em;
     color: black;
+    transition: all ease-in-out .25s;
+}
+
+.card-principal a:hover{
+  background: rgba(255, 204, 0, 0.901);
+  transition: all 0.5s;
 }
 
 .box-dois {
@@ -215,6 +221,12 @@ h1 {
 
 }
 
+.texto-dois a:hover {
+  background-color: rgb(26, 26, 26) ;
+  transition: all 0.5s;
+}
+
+
 .servicos-dois {
     display: grid;
     justify-content: center;
@@ -241,6 +253,12 @@ h1 {
     padding: 31px 44px;
     font-size: 25px;
     font-weight: 600;
+}
+
+.box-titulo-servicos-dois a:hover {
+
+  background: rgba(255, 204, 0, 0.901);
+  transition: all 0.5s;
 }
 
 
