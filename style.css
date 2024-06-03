@@ -1112,7 +1112,6 @@ section.depoimentos {
       margin-top: -50px;
   }
 
-  .card
 
     
 
@@ -1130,12 +1129,7 @@ section.depoimentos {
     text-align: center;
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
+
 
 .card-galeria p {
     position: absolute;
@@ -1144,10 +1138,7 @@ section.depoimentos {
     margin-left: 10px;
 }
 
-.card-galeria img {
-    width: 175px;
-    height: 150px;
-}
+
 
 .div-titulo-depoimentos {
   display: flex;
