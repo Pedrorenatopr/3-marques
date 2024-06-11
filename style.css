@@ -281,6 +281,14 @@ h1 {
 
 }
 
+.cartao-servicos-dois2 .card-container {
+  width: 460px;
+}
+
+.cartao-servicos-dois2 .card-container .img-content img{
+  width: 460px;
+}
+
 .legenda-card {
     position: absolute;
     left: 20px;
@@ -1020,6 +1028,14 @@ section.depoimentos {
         width: 100%;
         padding: 50px 10px;
         margin-top: -100px;
+    }
+
+    .cartao-servicos-dois2 .card-container {
+      width: 300px;
+    }
+    
+    .cartao-servicos-dois2 .card-container .img-content img{
+      width: 300px;
     }
 
 
